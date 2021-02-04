@@ -1,0 +1,21 @@
+﻿<Window x:Class="BookStoreGUI.BookPreviewer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BookStoreGUI"
+        mc:Ignorable="d"
+        Title="Book Previewer" Height="350" Width="400">
+    <Grid Margin="1,2,-0.4,-2">
+        <TextBox Name="isbnTextBox" HorizontalAlignment="Left" Height="23" Margin="108,114,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="186" IsEnabled="False"/>
+        <TextBlock HorizontalAlignment="Left" Margin="75,115,0,0" TextWrapping="Wrap" Text="ISBN:" VerticalAlignment="Top" RenderTransformOrigin="0.185,0.664"/>
+        <TextBlock HorizontalAlignment="Left" Margin="68,76,0,0" TextWrapping="Wrap" Text="Name:" VerticalAlignment="Top"/>
+        <TextBox Name="nameTextBox" HorizontalAlignment="Left" Height="23" Margin="108,75,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="186" IsEnabled="False"/>
+        <TextBox x:Name="authorTextBox" HorizontalAlignment="Left" Height="23" Margin="108,155,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="186" IsEnabled="False"/>
+        <TextBlock HorizontalAlignment="Left" Margin="63,156,0,0" TextWrapping="Wrap" Text="Author:" VerticalAlignment="Top"/>
+        <TextBox x:Name="genreTextBox" HorizontalAlignment="Left" Height="23" Margin="109,191,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="186" IsEnabled="False"/>
+        <TextBlock HorizontalAlignment="Left" Margin="64,192,0,0" TextWrapping="Wrap" Text="Genre:" VerticalAlignment="Top"/>
+
+
+    </Grid>
+</Window>
